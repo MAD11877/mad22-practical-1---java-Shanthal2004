@@ -11,6 +11,10 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
+    System.out.println("Enter Integer");
+    int INT = in.nextInt();
+    int Total = (INT*INT);
+    System.out.println("Multiplication of the integer itself: " + Total);
     
   }
 }
