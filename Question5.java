@@ -27,6 +27,11 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    
+    System.out.println("Enter the number of integers you want to display");
+    int No = in.nextInt();
+    for (int i=0; i <= No; i++)
+      {
+        
+      }
   }
 }
